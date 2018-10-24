@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>BarnardTech.Imaging</AssemblyName>
+    <Authors>Chris Barnard</Authors>
+    <Company>Barnard Technology Ltd</Company>
+    <Description>In-development library to store commonly-used imaging procedures, generally to improve efficiency over standard .NET.</Description>
+    <Copyright>(C) 2018 Barnard Technology Ltd</Copyright>
+    <PackageLicenseUrl>https://github.com/BarnardTechnology/Imaging/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/BarnardTechnology/Imaging</PackageProjectUrl>
+    <RootNamespace>BarnardTech.Imaging</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+  </ItemGroup>
+
+</Project>
