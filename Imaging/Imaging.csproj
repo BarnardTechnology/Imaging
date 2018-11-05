@@ -10,6 +10,7 @@
     <PackageLicenseUrl>https://github.com/BarnardTechnology/Imaging/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/BarnardTechnology/Imaging</PackageProjectUrl>
     <RootNamespace>BarnardTech.Imaging</RootNamespace>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>

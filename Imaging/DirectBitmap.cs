@@ -30,8 +30,9 @@ namespace BarnardTech.Imaging
 
         public DirectBitmap(Bitmap fromBitmap) : this(fromBitmap.Width, fromBitmap.Height)
         {
+            Bitmap.SetResolution(fromBitmap.HorizontalResolution, fromBitmap.VerticalResolution);
             Graphics gr = Graphics.FromImage(Bitmap);
-            gr.DrawImage(fromBitmap, 0, 0);
+            gr.DrawImage(fromBitmap, 0, 0, Bitmap.Width, Bitmap.Height);
             gr.Dispose();
         }
 
